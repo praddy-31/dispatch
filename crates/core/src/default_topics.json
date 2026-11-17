@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "research": [
+    {
+      "id": "ml",
+      "name": "Machine learning",
+      "enabled": true,
+      "categories": [
+        { "id": "cs.LG", "enabled": true },
+        { "id": "stat.ML", "enabled": true }
+      ],
+      "include": [],
+      "exclude": []
+    },
+    {
+      "id": "astro",
+      "name": "Astrophysics",
+      "enabled": true,
+      "categories": [
+        { "id": "astro-ph.GA", "enabled": true },
+        { "id": "astro-ph.CO", "enabled": true }
+      ],
+      "include": [],
+      "exclude": []
+    },
+    {
+      "id": "climate",
+      "name": "Climate & weather",
+      "enabled": true,
+      "categories": [{ "id": "physics.ao-ph", "enabled": true }],
+      "include": [],
+      "exclude": []
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "enabled": true,
+      "categories": [{ "id": "cs.RO", "enabled": true }],
+      "include": [],
+      "exclude": []
+    },
+    {
+      "id": "language",
+      "name": "Language models",
+      "enabled": true,
+      "categories": [
+        { "id": "cs.CL", "enabled": true },
+        { "id": "cs.AI", "enabled": false },
+        { "id": "cs.LG", "enabled": true }
+      ],
+      "include": [],
+      "exclude": [],
+      "category_include": {
+        "cs.LG": ["language model", "llm", "transformer", "tokeniz"]
+      }
+    }
+  ],
+  "news": []
+}

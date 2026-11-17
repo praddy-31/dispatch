@@ -1,0 +1,7 @@
+.DS_Store
+target/
+app/gen/
+dist/
+*.sqlite
+tmp/
+to_delete/

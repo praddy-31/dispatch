@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pNYZJaj3PWuSyiuwrHo2IRi4aZ0</id>
+  <title>arXiv Query: search_query=cat:quant-ph&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2026-10-29T23:01:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=cat:quant-ph&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>189839</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.91665v1</id>
+    <title>Closed-Form Dynamics of a Collectively Pumped Emitter Ensemble</title>
+    <updated>2026-10-27T17:59:34Z</updated>
+    <link href="https://arxiv.org/abs/2610.91665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.91665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We follow an ensemble of $N$ made-up two-level emitters that decay together at rate $Γ$ while a pump drives them at rate $R$, and give the whole evolution in closed form. This abstract was written for Dispatch's tests.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-27T17:59:34Z</published>
+    <arxiv:comment>14 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mira Okafor</name>
+    </author>
+    <author>
+      <name>Nico Weißler</name>
+    </author>
+    <author>
+      <name>Tomas Reyes</name>
+    </author>
+    <author>
+      <name>Hanna J. Weller</name>
+    </author>
+    <author>
+      <name>Pavel Ondrej</name>
+    </author>
+    <author>
+      <name>Ines Duarte</name>
+    </author>
+    <author>
+      <name>Kofi Mensah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.91660v1</id>
+    <title>Telling weak signals apart at exceptional points of open systems</title>
+    <updated>2026-10-27T17:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2610.91660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.91660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Do exceptional points make a weak perturbation easier to tell apart? We compare invented detectors near and away from them. This abstract was written for Dispatch's tests.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-27T17:59:06Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Arun Mehta</name>
+    </author>
+    <author>
+      <name>R. Castellano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.91654v1</id>
+    <title>Induced interactions between impurities in a strongly coupled gas</title>
+    <updated>2026-10-27T17:58:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.91654v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.91654v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two impurities in a strongly coupled gas feel each other through the medium. We estimate that induced interaction with a toy model [1]. This abstract was written for Dispatch's tests.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-27T17:58:38Z</published>
+    <arxiv:comment>5 pages + 5 pages(supplemental material) and 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Sofia Lindqvist</name>
+    </author>
+    <author>
+      <name>D. K. Abara</name>
+    </author>
+    <author>
+      <name>Jorge A. Núñez Prado</name>
+    </author>
+  </entry>
+</feed>

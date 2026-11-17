@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5LjWe7bY5XD1DAiKJu5q8kJfNmg</id>
+  <title>arXiv Query: search_query=&amp;id_list=1602.90837&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-30T01:38:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1602.90837" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.90837v1</id>
+    <title>A made-up transient signal seen by two test detectors</title>
+    <updated>2016-02-11T19:26:44Z</updated>
+    <link href="https://arxiv.org/abs/1602.90837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.90837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two invented detectors saw the same transient signal, with a peak strain of $1.0 \times 10^{-21}$, at a distance of $410^{+160}_{-180}$ Mpc and a redshift $z = 0.09^{+0.03}_{-0.04}$; the masses were $36^{+5}_{-4} M_\odot$ and $29^{+4}_{-4} M_\odot$. This abstract was written for Dispatch's tests and describes no real observation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-11T19:26:44Z</published>
+    <arxiv:comment>16 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>J. Demo Phys. Lett. 116, 061102 (2016)</arxiv:journal_ref>
+    <author>
+      <name> The Example Detector Collaboration</name>
+    </author>
+    <author>
+      <name> the Second Example Collaboration</name>
+    </author>
+    <arxiv:doi>10.5555/demo.2016.061102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5555/demo.2016.061102" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,25 @@
+[package]
+name = "dispatch-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Dispatch's fetching, storage, topics and theme: everything testable without a window"
+publish = false
+
+[lib]
+name = "dispatch"
+
+[[bin]]
+name = "dispatch-cli"
+path = "src/bin/cli.rs"
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock", "std", "serde"] }
+feed-rs = "2"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "gzip", "default-tls"] }
+rusqlite = { version = "0.37", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+tempfile = "3"

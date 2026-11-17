@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dispatch</title>
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <nav class="sections" role="tablist">
+      <button role="tab" data-section="research" aria-selected="true">Research <span class="count" id="count-research"></span></button>
+      <button role="tab" data-section="news" aria-selected="false">News <span class="count" id="count-news"></span></button>
+      <button role="tab" data-section="saved" aria-selected="false" title="Saved (3)">Saved <span class="count" id="count-saved"></span></button>
+      <button role="tab" data-section="search" aria-selected="false" title="Search everything (4 or ⌘F)">Search</button>
+      <button role="tab" data-section="stats" aria-selected="false" title="Stats (w)">Stats</button>
+      <button role="tab" data-section="topics" aria-selected="false" title="Topics (⌘T)">Topics</button>
+      <button role="tab" data-section="settings" aria-selected="false" title="Settings (⌘,)">Settings</button>
+    </nav>
+    <div class="chips" id="chips"></div>
+    <input id="query" class="query" type="search" placeholder="Search everything…" autocomplete="off" spellcheck="false" hidden>
+    <input id="addbox" class="query" type="text" placeholder="Add a paper: arXiv link, id or DOI (⌘N)" autocomplete="off" spellcheck="false" hidden>
+  </header>
+
+  <main class="split" id="reader">
+    <section class="listcol">
+      <div class="list-head" id="list-head"></div>
+      <section class="list" id="list" aria-label="Items" tabindex="-1"></section>
+    </section>
+    <div class="divider" id="divider" role="separator" aria-orientation="vertical" title="Drag to resize · double-click to reset"></div>
+    <section class="preview" id="preview" aria-label="Preview"></section>
+  </main>
+
+  <main class="triage" id="triage" hidden></main>
+  <main class="settings" id="settings" hidden></main>
+  <main class="stats" id="stats" hidden></main>
+
+  <main class="picker" id="picker" hidden>
+    <aside class="picker-list" id="picker-list"></aside>
+    <section class="picker-edit" id="picker-edit"></section>
+    <div class="savebar" id="savebar"></div>
+  </main>
+
+  <footer class="bottom">
+    <div class="strip" id="strip"></div>
+    <div class="status">
+      <button id="sources" class="sources" type="button"></button>
+      <span id="last"></span>
+      <button id="refresh" type="button">Refresh</button>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" hidden></div>
+  <div class="overlay" id="overlay" hidden></div>
+  <div class="popover" id="source-pop" hidden></div>
+
+  <script src="vendor/katex/katex.min.js"></script>
+  <script src="vendor/katex/auto-render.min.js"></script>
+  <script src="app.js"></script>
+  <script src="topics.js"></script>
+  <script src="settings.js"></script>
+  <script src="authors.js"></script>
+  <script src="stats.js"></script>
+  <script src="triage.js"></script>
+  <script src="guide.js"></script>
+  <script src="keys.js"></script>
+</body>
+</html>

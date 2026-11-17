@@ -1,0 +1,37 @@
+[package]
+name = "dispatch-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Dispatch's window and menu-bar icon"
+publish = false
+
+[[bin]]
+name = "dispatch"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+dispatch-core = { path = "../crates/core" }
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = ["tray-icon", "image-png", "macos-private-api"] }
+tauri-plugin-single-instance = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-clipboard-manager = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-notification = "2"
+# Phase 21: the global shortcut that opens Search (the same plugin as Palette and the Habit
+# Tracker).
+tauri-plugin-global-shortcut = "2"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+# The Zotero API key in the macOS Keychain (Phase 16b). Already in the build through reqwest's
+# TLS, so no new download.
+security-framework = "3"
+# Phase 21: whether the menu bar is dark (for the red-dot icon, which can't be a template).
+# Already in the build through security-framework.
+core-foundation-sys = "0.8"

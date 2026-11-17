@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Starts as a menu-bar app (no Dock icon at launch or login); main.rs makes it a Dock
+	     app (Regular) while the window is open, as Palette and the Habit Tracker do. -->
+	<key>LSUIElement</key>
+	<true/>
+	<!-- dispatch:// links: macOS hands them to the app (RunEvent::Opened). -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Dispatch link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dispatch</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

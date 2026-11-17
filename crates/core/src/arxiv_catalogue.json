@@ -1,0 +1,224 @@
+{
+  "note": "Friendly groups over arXiv's category taxonomy (arxiv.org/category_taxonomy). A category may appear in more than one group. 'match' narrows a category inside a group to papers that mention one of the words (title or abstract).",
+  "groups": [
+    {
+      "id": "quantum", "name": "Quantum",
+      "categories": [{ "id": "quant-ph", "name": "Quantum Physics" }]
+    },
+    {
+      "id": "quantum-computing", "name": "Quantum computing",
+      "categories": [
+        { "id": "quant-ph", "name": "Quantum Physics", "match": ["quantum comput", "qubit", "quantum algorithm", "quantum circuit", "error correction", "quantum processor"] },
+        { "id": "cs.ET", "name": "Emerging Technologies" }
+      ]
+    },
+    {
+      "id": "optics", "name": "Optics & photonics",
+      "categories": [
+        { "id": "physics.optics", "name": "Optics" },
+        { "id": "physics.app-ph", "name": "Applied Physics", "match": ["photonic", "optical", "laser", "waveguide", "metasurface"] }
+      ]
+    },
+    {
+      "id": "amo", "name": "Atomic, molecular & chemical",
+      "categories": [
+        { "id": "physics.atom-ph", "name": "Atomic Physics" },
+        { "id": "physics.chem-ph", "name": "Chemical Physics" },
+        { "id": "physics.atm-clus", "name": "Atomic and Molecular Clusters" },
+        { "id": "cond-mat.quant-gas", "name": "Quantum Gases" }
+      ]
+    },
+    {
+      "id": "cond-mat", "name": "Condensed matter",
+      "categories": [
+        { "id": "cond-mat.mes-hall", "name": "Mesoscale and Nanoscale Physics" },
+        { "id": "cond-mat.mtrl-sci", "name": "Materials Science" },
+        { "id": "cond-mat.str-el", "name": "Strongly Correlated Electrons" },
+        { "id": "cond-mat.supr-con", "name": "Superconductivity" },
+        { "id": "cond-mat.stat-mech", "name": "Statistical Mechanics" },
+        { "id": "cond-mat.soft", "name": "Soft Condensed Matter" },
+        { "id": "cond-mat.dis-nn", "name": "Disordered Systems and Neural Networks" },
+        { "id": "cond-mat.quant-gas", "name": "Quantum Gases" },
+        { "id": "cond-mat.other", "name": "Other Condensed Matter" }
+      ]
+    },
+    {
+      "id": "comp-ph", "name": "Computational physics",
+      "categories": [
+        { "id": "physics.comp-ph", "name": "Computational Physics" },
+        { "id": "physics.data-an", "name": "Data Analysis, Statistics and Probability" }
+      ]
+    },
+    {
+      "id": "computing", "name": "Computing",
+      "categories": [
+        { "id": "cs.ET", "name": "Emerging Technologies" },
+        { "id": "cs.AR", "name": "Hardware Architecture" },
+        { "id": "cs.DC", "name": "Distributed, Parallel, and Cluster Computing" },
+        { "id": "cs.PF", "name": "Performance" },
+        { "id": "cs.OS", "name": "Operating Systems" },
+        { "id": "cs.NI", "name": "Networking and Internet Architecture" },
+        { "id": "cs.SE", "name": "Software Engineering" },
+        { "id": "cs.PL", "name": "Programming Languages" },
+        { "id": "cs.CR", "name": "Cryptography and Security" },
+        { "id": "cs.MS", "name": "Mathematical Software" },
+        { "id": "cs.NA", "name": "Numerical Analysis" }
+      ]
+    },
+    {
+      "id": "ai", "name": "AI & machine learning",
+      "categories": [
+        { "id": "cs.LG", "name": "Machine Learning" },
+        { "id": "cs.AI", "name": "Artificial Intelligence" },
+        { "id": "cs.CL", "name": "Computation and Language" },
+        { "id": "cs.CV", "name": "Computer Vision and Pattern Recognition" },
+        { "id": "cs.NE", "name": "Neural and Evolutionary Computing" },
+        { "id": "cs.RO", "name": "Robotics" },
+        { "id": "stat.ML", "name": "Machine Learning (Statistics)" }
+      ]
+    },
+    {
+      "id": "theory-cs", "name": "Theory of computing",
+      "categories": [
+        { "id": "cs.CC", "name": "Computational Complexity" },
+        { "id": "cs.DS", "name": "Data Structures and Algorithms" },
+        { "id": "cs.IT", "name": "Information Theory" },
+        { "id": "cs.LO", "name": "Logic in Computer Science" },
+        { "id": "cs.FL", "name": "Formal Languages and Automata Theory" },
+        { "id": "cs.DM", "name": "Discrete Mathematics" },
+        { "id": "cs.CG", "name": "Computational Geometry" }
+      ]
+    },
+    {
+      "id": "hep", "name": "High-energy physics",
+      "categories": [
+        { "id": "hep-th", "name": "Theory" },
+        { "id": "hep-ph", "name": "Phenomenology" },
+        { "id": "hep-ex", "name": "Experiment" },
+        { "id": "hep-lat", "name": "Lattice" }
+      ]
+    },
+    {
+      "id": "gravity", "name": "Gravity & cosmology",
+      "categories": [
+        { "id": "gr-qc", "name": "General Relativity and Quantum Cosmology" },
+        { "id": "astro-ph.CO", "name": "Cosmology and Nongalactic Astrophysics" }
+      ]
+    },
+    {
+      "id": "astro", "name": "Astrophysics",
+      "categories": [
+        { "id": "astro-ph.GA", "name": "Astrophysics of Galaxies" },
+        { "id": "astro-ph.SR", "name": "Solar and Stellar Astrophysics" },
+        { "id": "astro-ph.EP", "name": "Earth and Planetary Astrophysics" },
+        { "id": "astro-ph.HE", "name": "High Energy Astrophysical Phenomena" },
+        { "id": "astro-ph.IM", "name": "Instrumentation and Methods for Astrophysics" },
+        { "id": "astro-ph.CO", "name": "Cosmology and Nongalactic Astrophysics" }
+      ]
+    },
+    {
+      "id": "nuclear", "name": "Nuclear physics",
+      "categories": [
+        { "id": "nucl-th", "name": "Nuclear Theory" },
+        { "id": "nucl-ex", "name": "Nuclear Experiment" }
+      ]
+    },
+    {
+      "id": "physics-other", "name": "Applied & general physics",
+      "categories": [
+        { "id": "physics.app-ph", "name": "Applied Physics" },
+        { "id": "physics.flu-dyn", "name": "Fluid Dynamics" },
+        { "id": "physics.plasm-ph", "name": "Plasma Physics" },
+        { "id": "physics.ins-det", "name": "Instrumentation and Detectors" },
+        { "id": "physics.acc-ph", "name": "Accelerator Physics" },
+        { "id": "physics.bio-ph", "name": "Biological Physics" },
+        { "id": "physics.med-ph", "name": "Medical Physics" },
+        { "id": "physics.class-ph", "name": "Classical Physics" },
+        { "id": "physics.gen-ph", "name": "General Physics" },
+        { "id": "physics.ao-ph", "name": "Atmospheric and Oceanic Physics" },
+        { "id": "physics.geo-ph", "name": "Geophysics" },
+        { "id": "physics.space-ph", "name": "Space Physics" },
+        { "id": "physics.soc-ph", "name": "Physics and Society" },
+        { "id": "physics.ed-ph", "name": "Physics Education" },
+        { "id": "physics.hist-ph", "name": "History and Philosophy of Physics" },
+        { "id": "physics.pop-ph", "name": "Popular Physics" }
+      ]
+    },
+    {
+      "id": "nonlinear", "name": "Nonlinear science",
+      "categories": [
+        { "id": "nlin.CD", "name": "Chaotic Dynamics" },
+        { "id": "nlin.PS", "name": "Pattern Formation and Solitons" },
+        { "id": "nlin.SI", "name": "Exactly Solvable and Integrable Systems" },
+        { "id": "nlin.AO", "name": "Adaptation and Self-Organizing Systems" },
+        { "id": "nlin.CG", "name": "Cellular Automata and Lattice Gases" }
+      ]
+    },
+    {
+      "id": "math", "name": "Mathematics",
+      "categories": [
+        { "id": "math-ph", "name": "Mathematical Physics" },
+        { "id": "math.NA", "name": "Numerical Analysis" },
+        { "id": "math.OC", "name": "Optimization and Control" },
+        { "id": "math.PR", "name": "Probability" },
+        { "id": "math.AP", "name": "Analysis of PDEs" },
+        { "id": "math.DS", "name": "Dynamical Systems" },
+        { "id": "math.ST", "name": "Statistics Theory" },
+        { "id": "math.CO", "name": "Combinatorics" },
+        { "id": "math.AG", "name": "Algebraic Geometry" },
+        { "id": "math.NT", "name": "Number Theory" },
+        { "id": "math.DG", "name": "Differential Geometry" },
+        { "id": "math.FA", "name": "Functional Analysis" },
+        { "id": "math.OA", "name": "Operator Algebras" },
+        { "id": "math.QA", "name": "Quantum Algebra" },
+        { "id": "math.RT", "name": "Representation Theory" }
+      ]
+    },
+    {
+      "id": "stats", "name": "Statistics",
+      "categories": [
+        { "id": "stat.ME", "name": "Methodology" },
+        { "id": "stat.CO", "name": "Computation" },
+        { "id": "stat.AP", "name": "Applications" },
+        { "id": "stat.ML", "name": "Machine Learning" },
+        { "id": "stat.TH", "name": "Statistics Theory" }
+      ]
+    },
+    {
+      "id": "bio", "name": "Quantitative biology",
+      "categories": [
+        { "id": "q-bio.BM", "name": "Biomolecules" },
+        { "id": "q-bio.NC", "name": "Neurons and Cognition" },
+        { "id": "q-bio.QM", "name": "Quantitative Methods" },
+        { "id": "q-bio.PE", "name": "Populations and Evolution" },
+        { "id": "q-bio.GN", "name": "Genomics" },
+        { "id": "q-bio.MN", "name": "Molecular Networks" },
+        { "id": "q-bio.CB", "name": "Cell Behavior" },
+        { "id": "q-bio.SC", "name": "Subcellular Processes" },
+        { "id": "q-bio.TO", "name": "Tissues and Organs" }
+      ]
+    },
+    {
+      "id": "eess", "name": "Electrical engineering & signals",
+      "categories": [
+        { "id": "eess.SP", "name": "Signal Processing" },
+        { "id": "eess.SY", "name": "Systems and Control" },
+        { "id": "eess.IV", "name": "Image and Video Processing" },
+        { "id": "eess.AS", "name": "Audio and Speech Processing" }
+      ]
+    },
+    {
+      "id": "econ", "name": "Economics & finance",
+      "categories": [
+        { "id": "econ.EM", "name": "Econometrics" },
+        { "id": "econ.TH", "name": "Theoretical Economics" },
+        { "id": "econ.GN", "name": "General Economics" },
+        { "id": "q-fin.CP", "name": "Computational Finance" },
+        { "id": "q-fin.ST", "name": "Statistical Finance" },
+        { "id": "q-fin.PM", "name": "Portfolio Management" },
+        { "id": "q-fin.RM", "name": "Risk Management" },
+        { "id": "q-fin.MF", "name": "Mathematical Finance" }
+      ]
+    }
+  ]
+}

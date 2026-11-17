@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+<!-- Made up for the tests in the shape of a WordPress feed (content:encoded, media, comments). -->
+<channel>
+	<title>Example Science Weekly</title>
+	<atom:link href="https://science.example.org/feed/" rel="self" type="application/rss+xml"></atom:link>
+	<link>https://science.example.org</link>
+	<description>Made-up science stories</description>
+	<lastBuildDate>Thu, 29 Oct 2026 17:15:10 -0400</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.2</generator>
+	<item>
+		<title>How Do You Photograph Something Smaller Than Light?</title>
+		<link>https://science.example.org/how-do-you-photograph-something-smaller-than-light-20261029/</link>
+		<comments>https://science.example.org/how-do-you-photograph-something-smaller-than-light-20261029/#respond</comments>
+		<pubDate>Thu, 29 Oct 2026 15:11:57 +0000</pubDate>
+    <dc:creator><![CDATA[Rosa Ilves and Tom Arden]]></dc:creator>
+				<category><![CDATA[Physics]]></category>
+
+		<guid isPermaLink="false">https://science.example.org/?p=168400</guid>
+		<description><![CDATA[A short, made-up summary for the tests: what was found, by whom, and why it matters. <a href="https://science.example.org/how-do-you-photograph-something-smaller-than-light-20261029/">Read more</a>]]></description>
+										<content:encoded><![CDATA[<p>A longer made-up story with <em>markup</em>, a <a href="https://science.example.org/how-do-you-photograph-something-smaller-than-light-20261029/">link</a> and an image.</p><p><img src="https://science.example.org/img/0.jpg" alt=""></p>]]></content:encoded>
+					<wfw:commentRss>https://science.example.org/how-do-you-photograph-something-smaller-than-light-20261029/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		<media:content url="https://science.example.org/img/0.jpg" medium="image" width="1720" height="728"/>
+	</item>
+	<item>
+		<title>How Moss Turns Fog Into ‘Drinking Water’ for a Whole Hillside</title>
+		<link>https://science.example.org/how-moss-turns-fog-into-drinking-water-for-a-whole-20261028/</link>
+		<comments>https://science.example.org/how-moss-turns-fog-into-drinking-water-for-a-whole-20261028/#respond</comments>
+		<pubDate>Wed, 28 Oct 2026 16:04:18 +0000</pubDate>
+    <dc:creator><![CDATA[Kai Morrow]]></dc:creator>
+				<category><![CDATA[Biology]]></category>
+
+		<guid isPermaLink="false">https://science.example.org/?p=168393</guid>
+		<description><![CDATA[A short, made-up summary for the tests: what was found, by whom, and why it matters. <a href="https://science.example.org/how-moss-turns-fog-into-drinking-water-for-a-whole-20261028/">Read more</a>]]></description>
+										<content:encoded><![CDATA[<p>A longer made-up story with <em>markup</em>, a <a href="https://science.example.org/how-moss-turns-fog-into-drinking-water-for-a-whole-20261028/">link</a> and an image.</p><p><img src="https://science.example.org/img/1.jpg" alt=""></p>]]></content:encoded>
+					<wfw:commentRss>https://science.example.org/how-moss-turns-fog-into-drinking-water-for-a-whole-20261028/feed/</wfw:commentRss>
+			<slash:comments>21</slash:comments>
+		<media:content url="https://science.example.org/img/1.jpg" medium="image" width="1720" height="728"/>
+	</item>
+	<item>
+		<title>Why Sharing a Cake Fairly Is Like a Möbius Strip</title>
+		<link>https://science.example.org/why-sharing-a-cake-fairly-is-like-a-möbius-strip-20261027/</link>
+		<comments>https://science.example.org/why-sharing-a-cake-fairly-is-like-a-möbius-strip-20261027/#respond</comments>
+		<pubDate>Mon, 26 Oct 2026 14:54:29 +0000</pubDate>
+    <dc:creator><![CDATA[Ines Halvorsen]]></dc:creator>
+				<category><![CDATA[Mathematics]]></category>
+
+		<guid isPermaLink="false">https://science.example.org/?p=168386</guid>
+		<description><![CDATA[A short, made-up summary for the tests: what was found, by whom, and why it matters. <a href="https://science.example.org/why-sharing-a-cake-fairly-is-like-a-möbius-strip-20261027/">Read more</a>]]></description>
+										<content:encoded><![CDATA[<p>A longer made-up story with <em>markup</em>, a <a href="https://science.example.org/why-sharing-a-cake-fairly-is-like-a-möbius-strip-20261027/">link</a> and an image.</p><p><img src="https://science.example.org/img/2.jpg" alt=""></p>]]></content:encoded>
+					<wfw:commentRss>https://science.example.org/why-sharing-a-cake-fairly-is-like-a-möbius-strip-20261027/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		<media:content url="https://science.example.org/img/2.jpg" medium="image" width="1720" height="728"/>
+	</item>
+	<item>
+		<title>A Soil Microbe Caught Swapping Genes in Real Time</title>
+		<link>https://science.example.org/a-soil-microbe-caught-swapping-genes-in-real-time-20261026/</link>
+		<comments>https://science.example.org/a-soil-microbe-caught-swapping-genes-in-real-time-20261026/#respond</comments>
+		<pubDate>Fri, 23 Oct 2026 14:54:10 +0000</pubDate>
+    <dc:creator><![CDATA[Dev Narayan]]></dc:creator>
+				<category><![CDATA[Biology]]></category>
+
+		<guid isPermaLink="false">https://science.example.org/?p=168379</guid>
+		<description><![CDATA[A short, made-up summary for the tests: what was found, by whom, and why it matters. <a href="https://science.example.org/a-soil-microbe-caught-swapping-genes-in-real-time-20261026/">Read more</a>]]></description>
+										<content:encoded><![CDATA[<p>A longer made-up story with <em>markup</em>, a <a href="https://science.example.org/a-soil-microbe-caught-swapping-genes-in-real-time-20261026/">link</a> and an image.</p><p><img src="https://science.example.org/img/3.jpg" alt=""></p>]]></content:encoded>
+					<wfw:commentRss>https://science.example.org/a-soil-microbe-caught-swapping-genes-in-real-time-20261026/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		<media:content url="https://science.example.org/img/3.jpg" medium="image" width="1720" height="728"/>
+	</item>
+	<item>
+		<title>See Snowflakes Grow in These Slow-Motion Images</title>
+		<link>https://science.example.org/see-snowflakes-grow-in-these-slow-motion-images-20261025/</link>
+		<comments>https://science.example.org/see-snowflakes-grow-in-these-slow-motion-images-20261025/#respond</comments>
+		<pubDate>Wed, 21 Oct 2026 14:00:07 +0000</pubDate>
+    <dc:creator><![CDATA[Alma Quist]]></dc:creator>
+				<category><![CDATA[Physics]]></category>
+
+		<guid isPermaLink="false">https://science.example.org/?p=168372</guid>
+		<description><![CDATA[A short, made-up summary for the tests: what was found, by whom, and why it matters. <a href="https://science.example.org/see-snowflakes-grow-in-these-slow-motion-images-20261025/">Read more</a>]]></description>
+										<content:encoded><![CDATA[<p>A longer made-up story with <em>markup</em>, a <a href="https://science.example.org/see-snowflakes-grow-in-these-slow-motion-images-20261025/">link</a> and an image.</p><p><img src="https://science.example.org/img/4.jpg" alt=""></p>]]></content:encoded>
+					<wfw:commentRss>https://science.example.org/see-snowflakes-grow-in-these-slow-motion-images-20261025/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		<media:content url="https://science.example.org/img/4.jpg" medium="image" width="1720" height="728"/>
+	</item>
+	</channel>
+</rss>
